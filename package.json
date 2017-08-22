@@ -1,10 +1,14 @@
 {
   "name": "sylveelee",
+  "homepage": "https://sylveelee.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.5.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
+    "semantic-ui-react": "^0.71.5"
   },
   "devDependencies": {
     "react-scripts": "1.0.11"
