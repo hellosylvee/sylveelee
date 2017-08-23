@@ -1,6 +1,5 @@
 import React from 'react'
 import SocialMedia from '../components/SocialMedia'
-import Footer from '../components/Footer'
 import { Grid, Image, Header, Icon } from 'semantic-ui-react'
 import imgUrl from '../backgrounds/intro.png'
 
@@ -8,7 +7,14 @@ const About = () => {
 
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
+    position: 'absolute',
+    top: '0',
+    bottom: '0',
     margin: '-24px'
+  }
+
+  const socialMediaStyle = {
+    paddingBottom: '24px'
   }
 
   const rowStyle = {
@@ -40,9 +46,7 @@ const About = () => {
           <Header textAlign='center'>Let's connect!</Header>
         </Grid.Column>
       </Grid.Row>
-
-
-      <Grid.Row>
+      <Grid.Row style={socialMediaStyle}>
         <a target='_blank'
            rel='noopener noreferrer'
            href='https://www.twitter.com/hellosylvee'>
@@ -67,7 +71,6 @@ const About = () => {
                 color='violet'
                 size='big'/></a>
       </Grid.Row>
-      <Footer/>
     </Grid>
   );
 }

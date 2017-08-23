@@ -7,7 +7,14 @@ import imgUrl from '../backgrounds/intro.png'
 const Photography = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    margin: '-24px'
+    padding: '200px 0px 0px',
+    height: '100%',
+    marginTop: '-40px',
+    textAlign: 'center',
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
   }
 
   const rowStyle = {

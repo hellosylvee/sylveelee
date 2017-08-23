@@ -3,7 +3,8 @@ import { Grid, Header } from 'semantic-ui-react'
 
 const Footer = () => {
   const spanStyle={
-    paddingRight: '10px'
+    paddingRight: '10px',
+    paddingBottom: '24px'
   }
   return (
     <Grid.Row>

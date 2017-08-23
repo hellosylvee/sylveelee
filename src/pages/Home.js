@@ -11,13 +11,14 @@ import Writings from '../VR/Writings'
 
 class Home extends Component {
   render() {
-    const projectStyle = {
-      maxWidth: '1440px',
-      margin: '0 auto'
-    }
+    // const projectStyle = {
+    //   maxWidth: '1440px',
+    //   margin: '0 auto'
+    // }
 
     return (
-      <Grid stackable centered columns={3} style={projectStyle}>
+      // <Grid stackable centered columns={3} style={projectStyle}>
+      <Grid stackable centered columns={4}>
         <Intro/>
 
         {/* <Header as='h2'>Design</Header>
