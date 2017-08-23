@@ -10,13 +10,9 @@ const Writings = () => {
             <Image bordered centered
               src='assets/images/VR/01.png'
               as='a' size='large'
-              href='https://nyan-cat-tv.glitch.me/'
+              href='https://medium.com/@hellosylvee/a-look-into-virtual-reality-7b23fc07b617'
               target='_blank'
-            />
-            {/* <a target='_blank' rel='noopener noreferrer'
-               href='https://medium.com/@hellosylvee/a-look-into-virtual-reality-7b23fc07b617'>
-              A Look Into Virtual Reality
-            </a> */}
+            />s
           </Header>
         </div>
       </Grid.Column>
@@ -29,10 +25,6 @@ const Writings = () => {
               href='https://medium.com/@hellosylvee/a-further-look-into-virtual-reality-ca83a9a7e86f'
               target='_blank'
             />
-            {/* <a target='_blank' rel='noopener noreferrer'
-               href='https://medium.com/@hellosylvee/a-further-look-into-virtual-reality-ca83a9a7e86f'>
-              A Further Look Into VR
-            </a> */}
           </Header>
         </div>
       </Grid.Column>
@@ -45,10 +37,6 @@ const Writings = () => {
               href='https://medium.com/@hellosylvee/learn-three-js-in-three-steps-ac126cc24284'
               target='_blank'
             />
-            {/* <a target='_blank' rel='noopener noreferrer'
-               href='https://medium.com/@hellosylvee/learn-three-js-in-three-steps-ac126cc24284'>
-              Learn Three.js in 3 Steps
-            </a> */}
           </Header>
         </div>
       </Grid.Column>
