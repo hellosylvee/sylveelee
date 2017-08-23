@@ -6,7 +6,7 @@ const Intro = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
     padding: '200px 0px 100px 0px',
-    marginTop: '-25px',
+    marginTop: '-40px',
     textAlign: 'center'
   }
 

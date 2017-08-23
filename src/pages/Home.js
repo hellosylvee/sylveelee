@@ -5,7 +5,7 @@ import Intro from '../components/Intro'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 // import VrProjects from '../VR/VrProjects'
-// import PassionProjects from '../VR/PassionProjects'
+import PassionProjects from '../VR/PassionProjects'
 import Aframe from '../VR/Aframe'
 import Writings from '../VR/Writings'
 
@@ -21,10 +21,10 @@ class Home extends Component {
         <Intro/>
 
         {/* <Header as='h2'>Design</Header>
-        <VrProjects/>
+        <VrProjects/> */}
 
         <Header as='h2'>Passion Projects</Header>
-        <PassionProjects/> */}
+        <PassionProjects/>
 
         <Header as='h2'>360&#176; VR</Header>
         <Aframe/>

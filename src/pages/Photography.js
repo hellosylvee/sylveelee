@@ -24,73 +24,73 @@ const Photography = () => {
         <Grid.Column>
           <Image
             bordered centered
-            src='assets/images/dino.jpg'
+            src='assets/images/photos/dino.jpg'
             name='dinosaur skeleton'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/chihuly.jpg'
+            src='assets/images/photos/chihuly.jpg'
             name='ferris wheel'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/bird.jpg'
+            src='assets/images/photos/bird.jpg'
             name='bird'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/postal.jpg'
+            src='assets/images/photos/postal.jpg'
             name='post office'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/bridge.jpg'
+            src='assets/images/photos/bridge.jpg'
             name='brooklyn bridge'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/love.jpg'
+            src='assets/images/photos/love.jpg'
             name='love sign on water'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/whale.jpg'
+            src='assets/images/photos/whale.jpg'
             name='lobster roll'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/starbucks.jpg'
+            src='assets/images/photos/starbucks.jpg'
             name='inspirational message'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/spice.jpg'
+            src='assets/images/photos/spice.jpg'
             name='hollywood sign'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/donuts.jpg'
+            src='assets/images/photos/donuts.jpg'
             name='donuts'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/ramen.jpg'
+            src='assets/images/photos/ramen.jpg'
             name='ramen'
             size='massive' />
 
           <Image
             bordered centered
-            src='assets/images/fire.jpg'
+            src='assets/images/photos/fire.jpg'
             name='woman breathing fire'
             size='massive' />
         </Grid.Column>
