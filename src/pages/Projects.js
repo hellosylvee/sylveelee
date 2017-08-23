@@ -12,9 +12,15 @@ import MoultonCampaign from '../projects/MoultonCampaign'
 import { Grid, Image, Header } from 'semantic-ui-react'
 
 const Projects = ({ match }) => {
+  // const headerStyle = {
+  //   fontFamily: 'Playfair Display',
+  //   fontSize: '3em',
+  //   marginTop: '96px',
+  //   padding: '0px 200px'
+  // }
 
   const rowStyle = {
-    marginTop: '48px'
+    marginTop: '36px'
   }
 
   const imageStyle = {
@@ -112,6 +118,9 @@ const Projects = ({ match }) => {
         <Route path={`${match.url}/uxdc`} component={Uxdc}/>
         <Route path={`${match.url}/wanderant`} component={Wanderant}/>
         <Route path={`${match.url}/moultoncampaign`} component={MoultonCampaign}/>
+        {/* <Route exact path={match.url} render={() => (
+          <Header style={headerStyle}>Please select a project to view.</Header>
+        )}/> */}
       </Grid.Row>
     </Grid>
   )
