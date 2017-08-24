@@ -12,7 +12,7 @@ const Writings = () => {
               as='a' size='large'
               href='https://medium.com/@hellosylvee/a-look-into-virtual-reality-7b23fc07b617'
               target='_blank'
-            />s
+            />
           </Header>
         </div>
       </Grid.Column>

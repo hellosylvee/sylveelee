@@ -12,7 +12,7 @@ const Uxdc = () => {
           <Header style={headerStyle} as='h2'>UXDC</Header>
           <div className='animated fadeIn'>
             <Image centered
-              src='/assets/images/work/work_uxdc.png' name='uxdc' size='massive' />
+              src='/assets/images/work/work_uxdc.png' name='uxdc' size='large' />
             <Header as='h2'>UXDC Conference</Header>
             <p>
               UXDC 2015 is a multidisciplinary conference in Washington, DC were students, professionals and practitioners can learn from people influencing UX strategy and delivery innovative user experiences across DC's unique mix of public, private, nonprofit, and education sectors. It is designed by the UX community for the UX community with the intent of bring UX practice to the next level. For this conference, I worked on logo assets, digital press kit, and presentation slies.
@@ -53,13 +53,13 @@ const Uxdc = () => {
       <Grid.Row centered columns = '3'>
         <Grid.Column>
           <Button color='violet'
-            fluid 
+            fluid
             as='a'
             href='http://www.sethmoulton.com/'
             target='_blank'>
             View website
           </Button>
-          
+
         </Grid.Column>
       </Grid.Row>
     </Grid>
