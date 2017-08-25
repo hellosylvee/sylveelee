@@ -10,6 +10,14 @@ const SocialMedia = () => {
     <Grid.Row style={socialStyle}>
       <a target='_blank'
          rel='noopener noreferrer'
+         href='https://www.instagram.com/hellosylvee'>
+        <Icon link
+              name='instagram'
+              color='violet'
+              size='big'/></a>
+
+      <a target='_blank'
+         rel='noopener noreferrer'
          href='https://www.github.com/hellosylvee'>
         <Icon link
               name='github'
@@ -18,9 +26,9 @@ const SocialMedia = () => {
 
       <a target='_blank'
          rel='noopener noreferrer'
-         href='https://www.instagram.com/hellosylvee'>
+         href='https://www.codepen.io/hellosylvee'>
         <Icon link
-              name='instagram'
+              name='codepen'
               color='violet'
               size='big'/></a>
 

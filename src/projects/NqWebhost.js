@@ -44,7 +44,7 @@ const NqWebhost = () => {
             <Image centered bordered
               src='/assets/images/work/webhost-final.jpg' name='nasdaq webhosting' size='massive' />
 
-            <Header as='h3'>FURTHER RESEARCH</Header>
+            <Header as='h3'>Further Research</Header>
             <p>
               Getting the feedback. Along with mobile work, I paired up with the lead product researcher for product research. This heavily involves reaching out to internal teams and clients for interviews, taking notes in sessions, post-sessions debriefing, and writing up usability reports. Other tasks include sending e-mails, scheduling interviews, reviewing through transcripts, and designing quarterly infographics.
             </p>
@@ -68,7 +68,7 @@ const NqWebhost = () => {
             <Image centered bordered
               src='/assets/images/work/bsu-ver2-search.jpg' name='nasdaq webhosting' size='massive' />
 
-            <Header as='h3'>CONCLUSION</Header>
+            <Header as='h3'>Conclusion</Header>
             <p>
               Normally, many concepts are tossed due to lack of interest and support. This concept is one of them.
             </p>

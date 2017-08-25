@@ -40,15 +40,45 @@ img.ui {
   margin-bottom: 8px;
 }
 
-/*.project-board {
-  background: #C33764;
-  background: -webkit-linear-gradient(to right, #1D2671, #C33764);
-  background: linear-gradient(to right, #1D2671, #C33764);
-  padding: 96px 48px;
-  margin: 0 auto;
-}*/
-
 .project-title a {
   font-size: 1.5em;
   color: #FFFF66;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #835DD4;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
