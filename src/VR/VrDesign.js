@@ -1,32 +1,29 @@
 import React from 'react';
 import { Grid, Image } from 'semantic-ui-react'
+import ComingSoon from './ComingSoon.js'
 
-const VrProjects = () => {
+const VrDesign = () => {
   return (
     <Grid.Row>
       <Grid.Column>
-        <Image
-          bordered centered
-          src='assets/images/dino.jpg'
-          name='dinosaur skeleton'
-          size='large' />
+        <ComingSoon/>
       </Grid.Column>
       <Grid.Column>
-        <Image
+        {/* <Image
           bordered centered
           src='assets/images/dino.jpg'
           name='dinosaur skeleton'
-          size='large' />
+          size='large' /> */}
       </Grid.Column>
       <Grid.Column>
-        <Image
+        {/* <Image
           bordered centered
           src='assets/images/dino.jpg'
           name='dinosaur skeleton'
-          size='large' />
+          size='large' /> */}
       </Grid.Column>
     </Grid.Row>
   );
 }
 
-export default VrProjects;
+export default VrDesign;

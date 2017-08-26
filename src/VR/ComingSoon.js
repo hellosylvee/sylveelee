@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Modal, Header, Image } from 'semantic-ui-react'
 
-const Third = () => {
+const ComingSoon = () => {
   const textStyleInModal={
     width: '100%',
     textAlign: 'center'
@@ -11,7 +11,7 @@ const Third = () => {
     <Grid.Column>
       <Modal size='large' trigger={
         <Image centered bordered
-          src='https://placeholdit.co//i/800x600'
+          src='https://placeholdit.co//i/340x240'
           as='a' size='large'
           target='_blank'
         /> }>
@@ -29,4 +29,4 @@ const Third = () => {
   )
 }
 
-export default Third
+export default ComingSoon

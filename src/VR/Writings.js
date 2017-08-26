@@ -13,7 +13,7 @@ const Writings = () => {
              target='_blank'
              rel="noopener noreferrer">
             <div className='overlay'>
-              <div className='text'>60's Tele&nbsp;
+              <div className='text'>A Look Into Virtual Reality&nbsp;
                 <Icon name='external'/>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Writings = () => {
              target='_blank'
              rel="noopener noreferrer">
             <div className='overlay'>
-              <div className='text'>Winter Wonderland&nbsp;
+              <div className='text'>A Further Look Into VR&nbsp;
                 <Icon name='external'/>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Writings = () => {
              target='_blank'
              rel="noopener noreferrer">
             <div className='overlay'>
-              <div className='text'>60's Tele&nbsp;
+              <div className='text'>Learn Three.js in Three Steps&nbsp;
                 <Icon name='external'/>
               </div>
             </div>
