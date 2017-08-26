@@ -11,15 +11,23 @@ h3.ui.header.animated.fadeIn, h3.ui.header {
 h4.ui.header.animated.fadeIn {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  margin-top: 8px;
 }
 
+h5.ui.header {
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
 h2.ui.header {
   margin-top: 36px;
 }
 
 h3.ui.header {
   margin-top: 96px;
+}
+
+h4.ui.header {
+  margin-top: 8px;
 }
 
 h6.ui.header {
