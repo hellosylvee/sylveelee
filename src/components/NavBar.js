@@ -20,9 +20,9 @@ export default class NavBar extends Component {
             color='violet'
             fixed='top'>
         <Menu.Item
-          as={Link} to='/home'
-          name='homes'
-          active={activeItem === 'homes'}
+          as={Link} to='/'
+          name='work'
+          active={activeItem === 'work'}
           onClick={this.handleItemClick} >
           <Icon name='diamond' size='big'/>
         </Menu.Item>

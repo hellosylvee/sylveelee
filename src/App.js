@@ -15,8 +15,8 @@ class App extends Component {
       <div>
         <NavBar />
           <Switch>
-            <Route exact path="/" render={() => ( <Redirect to="/home"/> )}/>
-            <Route path='/home' component={Work} />
+            <Route exact path="/" render={() => ( <Redirect to="/work"/> )}/>
+            <Route path='/work' component={Work} />
             <Route path='/projects' component={Projects} />
             <Route path='/about' component={About} />
             <Route path='/photography' component={Photography} />

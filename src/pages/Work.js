@@ -11,7 +11,6 @@ import MoultonCampaign from '../projects/MoultonCampaign'
 import Allstate from '../projects/Allstate'
 import ExpressScripts from '../projects/ExpressScripts'
 
-import Footer from '../components/Footer'
 import { Grid, Image, Header } from 'semantic-ui-react'
 
 const Work = ({ match }) => {
