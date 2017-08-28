@@ -152,7 +152,6 @@ const Work = ({ match }) => {
           <Header style={headerStyle}>Please select a project to view.</Header>
         )}/> */}
       </Grid.Row>
-      <Footer/>
     </Grid>
   )
 }

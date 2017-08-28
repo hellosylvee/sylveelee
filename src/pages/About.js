@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialMedia from '../components/SocialMedia'
+import Footer from '../components/Footer'
 import { Grid, Image, Header } from 'semantic-ui-react'
 import imgUrl from '../backgrounds/intro.png'
 
@@ -41,6 +42,7 @@ const About = () => {
           </p>
         </Grid.Column>
       </Grid.Row>
+      <Footer/>
     </Grid>
   );
 }

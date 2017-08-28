@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, Header, Image} from 'semantic-ui-react'
-import SocialMedia from './SocialMedia'
 import imgUrl from '../backgrounds/intro.png'
 
 const Intro = () => {
@@ -33,7 +32,6 @@ const Intro = () => {
                 className='animated fadeIn'>Sylvee Lee</Header>
         <Header as='h2'
                 style={subHeaderStyle}>Product Designer & Developer</Header>
-        <SocialMedia/>
       </Grid.Column>
     </Grid.Row>
   )

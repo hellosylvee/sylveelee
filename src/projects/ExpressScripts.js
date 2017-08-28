@@ -17,14 +17,8 @@ const ExpressScripts = () => {
             <Header as='h3'>A Home Delivery Prescription Service</Header>
             <Header as='h3'>Context</Header>
             <p>
-              Rx Emporium is a responsive web application for customers to order and/or refill their medical prescription orders. This application quickly identifies past orders and provide intuitive way to order new prescription medication within minutes. Rx Emporium is a pseudonym for Express Scripts.
-            </p>
-
-            <p>
-              Rx Emporium is a pharmacy benefit manager, working as a middleman between drug manufacturers and employers. The benefit manager (ie. Walgreen) pays pharmacies to dispense generic and brand drugs. Rx Emporium processes some 1.5 billion drug orders every year. The stakeholders want to increase sign-ups for mail-order delivery, and proposed an iOS app that scans pharmacy prescription bottles for automatic refills and be delivered at the front door.
-            </p>
-
-            <p>
+              Rx Emporium is a responsive web application for customers to order and/or refill their medical prescription orders. This application quickly identifies past orders and provide intuitive way to order new prescription medication within minutes. Rx Emporium is a pseudonym for Express Scripts.<br></br>
+              Rx Emporium is a pharmacy benefit manager, working as a middleman between drug manufacturers and employers. The benefit manager (ie. Walgreen) pays pharmacies to dispense generic and brand drugs. Rx Emporium processes some 1.5 billion drug orders every year. The stakeholders want to increase sign-ups for mail-order delivery, and proposed an iOS app that scans pharmacy prescription bottles for automatic refills and be delivered at the front door.<br></br>
               The business requirements for this app were a(n):
             </p>
 
