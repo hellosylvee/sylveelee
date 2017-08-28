@@ -1,11 +1,12 @@
 import React from 'react';
 import { Grid, Header, Image} from 'semantic-ui-react'
+import SocialMedia from './SocialMedia'
 import imgUrl from '../backgrounds/intro.png'
 
 const Intro = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    padding: '200px 0px 100px 0px',
+    padding: '120px 0px 40px 0px',
     height: '100%',
     marginTop: '-40px',
     textAlign: 'center',
@@ -17,7 +18,7 @@ const Intro = () => {
 
   const headerStyle = {
     fontFamily: 'Playfair Display',
-    fontSize: '8em'
+    fontSize: '4em'
   }
 
   const subHeaderStyle = {
@@ -27,11 +28,12 @@ const Intro = () => {
   return(
     <Grid.Row style={backgroundStyle}>
       <Grid.Column>
-        <Image centered className='animated rollIn rellax' src='/assets/svg/diamond.svg' size='small'/>
+        <Image centered className='animated rollIn rellax' src='/assets/svg/diamond.svg' size='tiny'/>
         <Header style={headerStyle} as='h2'
-                className='animated fadeIn'>Sylvee<br/>Lee</Header>
+                className='animated fadeIn'>Sylvee Lee</Header>
         <Header as='h2'
                 style={subHeaderStyle}>Product Designer & Developer</Header>
+        <SocialMedia/>
       </Grid.Column>
     </Grid.Row>
   )

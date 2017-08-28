@@ -10,33 +10,33 @@ const SocialMedia = () => {
     <Grid.Row style={socialStyle}>
       <a target='_blank'
          rel='noopener noreferrer'
-         href='https://www.instagram.com/hellosylvee'>
+         href='https://www.twitter.com/hellosylvee'>
+        <Icon link
+              name='twitter'
+              color='violet'
+              size='big'/></a>
+
+      <a target='_blank'
+         rel='noopener noreferrer'
+         href='https://www.linkedin.com/in/sylviaclee/'>
+        <Icon link
+              name='linkedin'
+              color='violet'
+              size='big'/></a>
+
+      <a target='_blank'
+         rel='noopener noreferrer'
+         href='https://mail.google.com/mail/?view=cm&fs=1&to=hellosylvee@gmail.com&su=Hello%20Sylvee&body=I%20am%20reaching%20out%20to%20you%20from%20your%20website.%20'>
+        <Icon link
+              name='mail outline'
+              color='violet'
+              size='big'/></a>
+
+      <a target='_blank'
+         rel='noopener noreferrer'
+         href='https://www.instagram.com/hellosylveenyc'>
         <Icon link
               name='instagram'
-              color='violet'
-              size='big'/></a>
-
-      <a target='_blank'
-         rel='noopener noreferrer'
-         href='https://www.github.com/hellosylvee'>
-        <Icon link
-              name='github'
-              color='violet'
-              size='big'/></a>
-
-      <a target='_blank'
-         rel='noopener noreferrer'
-         href='https://www.codepen.io/hellosylvee'>
-        <Icon link
-              name='codepen'
-              color='violet'
-              size='big'/></a>
-
-      <a target='_blank'
-         rel='noopener noreferrer'
-         href='https://www.dribbble.com/hellosylvee'>
-        <Icon link
-              name='dribble'
               color='violet'
               size='big'/></a>
 

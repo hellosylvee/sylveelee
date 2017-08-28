@@ -1,4 +1,4 @@
-h2.ui.header.animated.fadeIn, h2.ui.header {
+h2.ui.header.animated.fadeIn {
   font-family: 'Playfair Display', sans-serif;
   font-size: 2em;
 }
@@ -18,8 +18,10 @@ h5.ui.header {
   text-align: center;
   font-size: 2em;
 }
+
 h2.ui.header {
-  margin-top: 36px;
+  margin-top: 24px;
+  font-size: 1.25em;
 }
 
 h3.ui.header {

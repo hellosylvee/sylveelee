@@ -2,7 +2,10 @@ import React from 'react'
 
 import { Header, Grid, Image, List } from 'semantic-ui-react'
 
-const rxemporium = () => {
+const ExpressScripts = () => {
+  const headerStyle = {
+    paddingTop: '50px'
+  }
   return(
     <Grid stackable>
       <Grid.Row centered columns="1">
@@ -74,4 +77,5 @@ const rxemporium = () => {
     </Grid>
   )
 }
-export default rxemporium
+
+export default ExpressScripts

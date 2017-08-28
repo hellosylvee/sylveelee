@@ -1,13 +1,11 @@
 import React from 'react'
-import SocialMedia from '../components/SocialMedia'
-import Footer from '../components/Footer'
 import { Grid, Image, Header} from 'semantic-ui-react'
 import imgUrl from '../backgrounds/intro.png'
 
 const Photography = () => {
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    padding: '100px 0px 100px 0px',
+    padding: '120px 0px 100px 0px',
     height: '100%',
     marginTop: '-40px',
     textAlign: 'center',
@@ -16,6 +14,7 @@ const Photography = () => {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover'
   }
+
   return (
     <Grid stackable centered columns={1} style={backgroundStyle}>
       <Grid.Row>
@@ -97,8 +96,6 @@ const Photography = () => {
             size='massive' />
         </Grid.Column>
       </Grid.Row>
-      <SocialMedia/>
-      <Footer/>
     </Grid>
   );
 

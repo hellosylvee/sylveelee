@@ -1,129 +1,47 @@
-import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import React from 'react';
+import { Grid, Header } from 'semantic-ui-react'
+import Mindful from '../VR/Mindful.js'
+import Emta from '../VR/Emta.js'
+import PivotPong from '../VR/PivotPong.js'
+import ThreeD from '../VR/ThreeD.js'
+import Aframe from '../VR/Aframe'
+import imgUrl from '../backgrounds/intro.png'
 
-import Kafsc from '../projects/Kafsc'
-import Uxdc from '../projects/Uxdc'
-import NqDesktop from '../projects/NqDesktop'
-import NqMobile from '../projects/NqMobile'
-import NqWebhost from '../projects/NqWebhost'
-import Wanderant from '../projects/Wanderant'
-import MoultonCampaign from '../projects/MoultonCampaign'
-
-import { Grid, Image, Header } from 'semantic-ui-react'
-
-const Projects = ({ match }) => {
-  // const headerStyle = {
-  //   fontFamily: 'Playfair Display',
-  //   fontSize: '3em',
-  //   marginTop: '96px',
-  //   padding: '0px 200px'
-  // }
-
-  const rowStyle = {
-    marginTop: '36px'
-  }
-
-  const imageStyle = {
-    padding: '0px 5px'
+const Home = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${ imgUrl })`,
+    padding: '120px 0px 100px 0px',
+    height: '100%',
+    marginTop: '-40px',
+    textAlign: 'center',
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
   }
 
   return (
-    <Grid stackable centered>
-      <Grid.Row style={rowStyle}>
-        <Header className='animated fadeIn' as='h2'> Projects </Header>
-      </Grid.Row>
-      <Header as='h4' className='animated fadeIn'> Select a project to view </Header>
+    <Grid style={backgroundStyle} stackable centered columns={4}>
+
       <Grid.Row>
-        <a style={imageStyle}>
-          <Link to={`${match.url}/kafsc`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-kafsc.png'
-                   name='kafsc'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/nqdesktop`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-nasdaq.png'
-                   name='nasdaq desktop'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/nqmobile`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-nasdaq.png'
-                   name='nasdaq mobile'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/nqwebhost`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-nasdaq.png'
-                   name='nasdaq webhost'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/uxdc`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-uxdc.png'
-                   name='uxdc'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/wanderant`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-wanderant.png'
-                   name='wanderant'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <a style={imageStyle}>
-          <Link to={`${match.url}/moultoncampaign`}>
-            <Image className='animated fadeIn'
-                   src='assets/images/work/thumbnail-sethmoulton.png'
-                   name='sethmoulton'
-                   size='tiny'
-                   shape='circular'
-                   bordered centered />
-          </Link>
-        </a>
-
-        <Route path={`${match.url}/kafsc`} component={Kafsc}/>
-        <Route path={`${match.url}/nqdesktop`} component={NqDesktop}/>
-        <Route path={`${match.url}/nqmobile`} component={NqMobile}/>
-        <Route path={`${match.url}/nqwebhost`} component={NqWebhost}/>
-        <Route path={`${match.url}/uxdc`} component={Uxdc}/>
-        <Route path={`${match.url}/wanderant`} component={Wanderant}/>
-        <Route path={`${match.url}/moultoncampaign`} component={MoultonCampaign}/>
-        {/* <Route exact path={match.url} render={() => (
-          <Header style={headerStyle}>Please select a project to view.</Header>
-        )}/> */}
+        <Header className='animated fadeIn' as='h2'> Side Projects </Header>
       </Grid.Row>
+      <Header as='h4' className='animated fadeIn'> Taken with Pixel </Header>
+      <Grid.Row>
+        <Emta/>
+        <PivotPong/>
+        <Mindful/>
+      </Grid.Row>
+      <Grid.Row>
+        <ThreeD/>
+        <Grid.Column/>
+        <Grid.Column/>
+      </Grid.Row>
+
+      <Header as='h2'>360&#176; VR</Header>
+      <Aframe/>
     </Grid>
-  )
+  );
 }
 
-export default Projects;
+export default Home;
