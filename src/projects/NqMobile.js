@@ -10,7 +10,7 @@ const NqMobile = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>Nasdaq IR Mobile</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>Nasdaq IR Mobile</Header>
           <div className='animated fadeIn'>
             <Image centered bordered
               src='/assets/images/work/work_ir-mobile.png' name='nasdaq mobile' size='large' />

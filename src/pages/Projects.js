@@ -26,7 +26,7 @@ const Home = () => {
       <Grid.Row>
         <Header className='animated fadeIn' as='h2'> Side Projects </Header>
       </Grid.Row>
-      <Header as='h4' className='animated fadeIn'> Taken with Pixel </Header>
+      <Header as='h4' className='animated fadeIn'> Completed Outside of Work </Header>
       <Grid.Row>
         <Emta/>
         <PivotPong/>

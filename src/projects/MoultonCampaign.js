@@ -10,7 +10,7 @@ const MoultonCampaign = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>Seth Moulton For Congress</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>Seth Moulton For Congress</Header>
           <div className='animated fadeIn'>
             <Image centered
               as='a'

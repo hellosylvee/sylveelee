@@ -11,7 +11,7 @@ const PivotPong = () => {
     <Grid.Column>
       <Modal size='large' trigger={
         <Image centered bordered
-          src='assets/images/passion/pivotpong-1.jpg'
+          src='assets/images/passion/pivotpong.png'
           as='a' size='large'
           target='_blank'
         /> }>

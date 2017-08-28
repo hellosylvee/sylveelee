@@ -11,13 +11,12 @@ const Emta = () => {
     <Grid.Column>
       <Modal size='large' trigger={
         <Image centered bordered
-          src='assets/images/passion/mta-12-Presentation.jpg'
+          src='assets/images/passion/mta.png'
           as='a' size='large'
           target='_blank'
         /> }>
         <Modal.Header>Passion Projects</Modal.Header>
         <Modal.Content>
-          <Image size='medium' src='/assets/images/passion/wireframe/image.png' />
           <Modal.Description>
             <Header textAlign='center'>eMTA LIRR</Header>
             <p style={textStyleInModal}>A redesign of MTA LIRR app</p>

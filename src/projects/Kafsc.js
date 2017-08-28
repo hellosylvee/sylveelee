@@ -9,7 +9,7 @@ const Kafsc = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>KAFSC</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>KAFSC</Header>
           <div className='animated fadeIn'>
             <Image centered bordered
               as='a'

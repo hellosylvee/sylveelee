@@ -10,7 +10,7 @@ const NqWebhost = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>Nasdaq IR Webhosting</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>Nasdaq IR Webhosting</Header>
           <div className='animated fadeIn'>
             <Image centered
               src='/assets/images/work/work_wh.png' name='moultoncampaign' size='large' />

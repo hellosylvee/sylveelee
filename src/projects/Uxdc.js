@@ -9,7 +9,7 @@ const Uxdc = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>UXDC</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>UXDC</Header>
           <div className='animated fadeIn'>
             <Image centered
               src='/assets/images/work/work_uxdc.png' name='uxdc' size='large' />
@@ -55,7 +55,7 @@ const Uxdc = () => {
           <Button color='violet'
             fluid
             as='a'
-            href='http://www.sethmoulton.com/'
+            href='http://uxdcconference.org/'
             target='_blank'>
             View website
           </Button>

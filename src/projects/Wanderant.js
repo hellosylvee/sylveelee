@@ -10,7 +10,7 @@ const Wanderant = () => {
     <Grid stackable>
       <Grid.Row centered columns="1">
         <Grid.Column>
-          <Header style={headerStyle} as='h2'>Wanderant</Header>
+          <Header style={headerStyle} as='h2' className='animated fadeIn'>Wanderant</Header>
           <div className='animated fadeIn'>
             <Image centered
               as='a'
