@@ -3,9 +3,9 @@ import { Link, Route } from 'react-router-dom'
 import Intro from '../components/Intro'
 import Kafsc from '../projects/Kafsc'
 import Uxdc from '../projects/Uxdc'
-import NqDesktop from '../projects/NqDesktop'
-import NqMobile from '../projects/NqMobile'
-import NqWebhost from '../projects/NqWebhost'
+import Nasdaq from '../projects/Nasdaq'
+// import NqMobile from '../projects/NqMobile'
+// import NqWebhost from '../projects/NqWebhost'
 import Wanderant from '../projects/Wanderant'
 import MoultonCampaign from '../projects/MoultonCampaign'
 import Allstate from '../projects/Allstate'
@@ -19,9 +19,12 @@ const Work = ({ match }) => {
   }
 
   const imageStyle = {
-    padding: '0px 5px'
+    padding: '0px 10px'
   }
 
+  const linkStyle = {
+    fontFamily: 'Raleway, sans-serif'
+  }
   return (
     <Grid stackable centered>
       <Intro/>
@@ -38,7 +41,7 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Allstate</div>
+            <div style={linkStyle}>Allstate</div>
           </Link>
         </a>
 
@@ -50,7 +53,7 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Express Scripts</div>
+            <div style={linkStyle}>Express Scripts</div>
           </Link>
         </a>
 
@@ -62,23 +65,23 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>KAFSC</div>
+            <div style={linkStyle}>KAFSC</div>
           </Link>
         </a>
 
         <a style={imageStyle}>
-          <Link to={`${match.url}/nqdesktop`}>
+          <Link to={`${match.url}/nasdaq`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
                    name='nasdaq desktop'
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Insight</div>
+            <div style={linkStyle}>Nasdaq</div>
           </Link>
         </a>
 
-        <a style={imageStyle}>
+        {/* <a style={imageStyle}>
           <Link to={`${match.url}/nqmobile`}>
             <Image className='animated fadeIn'
                    src='assets/images/work/thumbnail-nasdaq.png'
@@ -86,7 +89,7 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Mobile</div>
+            <div style={linkStyle}>Mobile</div>
           </Link>
         </a>
 
@@ -98,9 +101,9 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Webhosting</div>
+            <div style={linkStyle}>Webhosting</div>
           </Link>
-        </a>
+        </a> */}
 
         <a style={imageStyle}>
           <Link to={`${match.url}/uxdc`}>
@@ -110,7 +113,7 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>UXDC</div>
+            <div style={linkStyle}>UXDC</div>
           </Link>
         </a>
 
@@ -122,7 +125,7 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Wanderant</div>
+            <div style={linkStyle}>Wanderant</div>
           </Link>
         </a>
 
@@ -134,16 +137,16 @@ const Work = ({ match }) => {
                    size='tiny'
                    shape='circular'
                    bordered centered />
-            <div>Seth Moulton</div>
+            <div style={linkStyle}>Seth Moulton</div>
           </Link>
         </a>
 
         <Route path={`${match.url}/allstate`} component={Allstate}/>
         <Route path={`${match.url}/express-scripts`} component={ExpressScripts}/>
         <Route path={`${match.url}/kafsc`} component={Kafsc}/>
-        <Route path={`${match.url}/nqdesktop`} component={NqDesktop}/>
-        <Route path={`${match.url}/nqmobile`} component={NqMobile}/>
-        <Route path={`${match.url}/nqwebhost`} component={NqWebhost}/>
+        <Route path={`${match.url}/nasdaq`} component={Nasdaq}/>
+        {/* <Route path={`${match.url}/nqmobile`} component={NqMobile}/>
+        <Route path={`${match.url}/nqwebhost`} component={NqWebhost}/> */}
         <Route path={`${match.url}/uxdc`} component={Uxdc}/>
         <Route path={`${match.url}/wanderant`} component={Wanderant}/>
         <Route path={`${match.url}/moultoncampaign`} component={MoultonCampaign}/>

@@ -16,7 +16,7 @@ const Photography = () => {
   }
 
   return (
-    <Grid stackable centered columns={1} style={backgroundStyle}>
+    <Grid stackable centered columns={4} style={backgroundStyle}>
       <Grid.Row>
         <Header className='animated fadeIn' as='h2'> Photography </Header>
       </Grid.Row>
@@ -24,81 +24,97 @@ const Photography = () => {
       <Grid.Row>
         <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/dino.jpg'
-            name='dinosaur skeleton'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/dino.jpg'
+          name='dinosaur skeleton'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/chihuly.jpg'
-            name='ferris wheel'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/chihuly.jpg'
+          name='ferris wheel'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/bird.jpg'
-            name='bird'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/bird.jpg'
+          name='bird'
+        size='massive' />
+        </Grid.Column>
+      </Grid.Row>
+      <Grid.Row>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/postal.jpg'
-            name='post office'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/postal.jpg'
+          name='post office'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/bridge.jpg'
-            name='brooklyn bridge'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/bridge.jpg'
+          name='brooklyn bridge'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/love.jpg'
-            name='love sign on water'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/love.jpg'
+          name='love sign on water'
+          size='massive' />
+        </Grid.Column>
+      </Grid.Row>
+      <Grid.Row>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/whale.jpg'
-            name='lobster roll'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/whale.jpg'
+          name='lobster roll'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/starbucks.jpg'
-            name='inspirational message'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/starbucks.jpg'
+          name='inspirational message'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/spice.jpg'
-            name='hollywood sign'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/spice.jpg'
+          name='hollywood sign'
+          size='massive' />
+        </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/donuts.jpg'
-            name='donuts'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/donuts.jpg'
+          name='donuts'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/ramen.jpg'
-            name='ramen'
-            size='massive' />
-
+          bordered centered
+          src='assets/images/photos/ramen.jpg'
+          name='ramen'
+          size='massive' />
+        </Grid.Column>
+        <Grid.Column>
           <Image
-            bordered centered
-            src='assets/images/photos/fire.jpg'
-            name='woman breathing fire'
-            size='massive' />
+          bordered centered
+          src='assets/images/photos/fire.jpg'
+          name='woman breathing fire'
+          size='massive' />
         </Grid.Column>
       </Grid.Row>
     </Grid>
   );
-
 }
 
 export default Photography;

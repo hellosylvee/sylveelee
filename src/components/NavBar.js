@@ -27,13 +27,13 @@ export default class NavBar extends Component {
           <Icon name='diamond' size='big'/>
         </Menu.Item>
 
-        <Menu.Item
+        {/* <Menu.Item
           as={Link} to='/projects'
           name='projects'
           active={activeItem === 'projects'}
           onClick={this.handleItemClick} >
           Projects
-        </Menu.Item>
+        </Menu.Item> */}
 
         <Menu.Item
           as={Link} to='/photography'
