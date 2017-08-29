@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Header, Image} from 'semantic-ui-react'
+import SocialMedia from '../components/SocialMedia'
 import imgUrl from '../backgrounds/intro.png'
 
 const AboutIntro = () => {
@@ -31,8 +32,7 @@ const AboutIntro = () => {
         <Image bordered centered shape='circular' className='animated rollIn rellax' src='/assets/images/profile.jpg' size='small'/>
         <Header style={headerStyle} as='h2'
                 className='animated fadeIn'>Sylvee Lee</Header>
-        <Header as='h2'
-                style={subHeaderStyle}>Product Designer & Developer</Header>
+        <SocialMedia/>
       </Grid.Column>
     </Grid.Row>
   )

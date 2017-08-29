@@ -24,7 +24,6 @@ const About = () => {
           </p>
         </Grid.Column>
       </Grid.Row>
-      <SocialMedia/>
       <Footer/>
     </Grid>
   );
