@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutIntro from '../components/AboutIntro'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 import { Grid, Image, Header } from 'semantic-ui-react'
@@ -6,20 +7,9 @@ import imgUrl from '../backgrounds/intro.png'
 
 const About = () => {
 
-  const backgroundStyle = {
-    backgroundImage: `url(${ imgUrl })`,
-    padding: '120px 0px 600px 0px',
-    height: '100%',
-    marginTop: '-40px',
-    textAlign: 'center',
-    backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-  }
-
   return (
-    <Grid style={backgroundStyle} stackable centered>
+    <Grid stackable centered>
+      <AboutIntro/>
       <Grid.Row>
         <Header className='animated fadeIn' as='h2'> About </Header>
       </Grid.Row>

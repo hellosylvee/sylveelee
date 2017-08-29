@@ -14,7 +14,7 @@ const Allstate = () => {
           <Header style={headerStyle} as='h2' className='animated fadeIn'>Allstate</Header>
           <div className='animated fadeIn'>
             <Image centered bordered
-              src='/assets/images/work/work_nexion.png' name='nasdaq desktop' size='massive' />
+              src='/assets/images/work/work_nexion.png' size='massive' />
             <Header as='h2'>A Mobile Insurance Concept</Header>
             <Header as='h3'>Context</Header>
             <p>
@@ -44,7 +44,7 @@ const Allstate = () => {
               <List.Item>Felt frustrated and annoyed when they filed a claim</List.Item>
               <List.Item>Have a dependent attachment to their phones</List.Item>
             </List>
-            <Image centered bordered src='/assets/images/work/nexion-assumptions.jpg' name='nasdaq desktop' size='massive' />
+            <Image centered bordered src='/assets/images/work/nexion-assumptions.jpg' size='massive' />
 
             <Header as='h3'>Framing</Header>
             <p>
@@ -55,18 +55,18 @@ const Allstate = () => {
               Along with the rest of the project team, I generated as many solution ideas to answer this question. The ideas are usually open-ended, not specific components in the product. All ideas (written in post-its) were "synthesized", a process in which ideas are categorized by themes. There were many ideas that range from interaction design to process, so I prioritized them based on a simple question: "Does this solution solve a user need?"<br></br>
               From there, I drafted a rough prototype to validate this solution through concept testing, a similar form of testing with focus on concept feedback instead of usability's.
             </p>
-            <Image centered bordered src='/assets/images/work/nexion-sketching.jpg' name='nasdaq desktop' size='massive' />
+            <Image centered bordered src='/assets/images/work/nexion-sketching.jpg' size='massive' />
 
             <Header as='h3'>Working in Iterations</Header>
             <p>
               I worked closely with a product manager to assess and prioritize opportunities and constraints. For upcoming features, I faciliated sketching sessions called design studios to frame a problem in a scenario and sketch ideas on paper. This activity provided collaboration with all members in the project team and partake ownership in designs of the product.
             </p>
-
+            <Image centered bordered src='/assets/images/work/nexion-signup-process.png' size='massive' />
             <Header as='h3'>Finished Product</Header>
             <p>
               A responsive web application that allows smartphone users to purchase phone insurance easily. Nexion Mobile provides 3 protection plans with various coverages: Cracked Screen, Serious Malfunction, and Complete Damage. All 3 plans provide monthly or one-time payment options. After a successful payment, a customer can activate the protection plan by downloading a diagnostics app that checks for software and hardware qualities. Look below to see the final designs for Nexion.
             </p>
-            <Image centered bordered src='/assets/images/work/nexion-final.png' name='nasdaq desktop' size='massive' />
+            <Image centered bordered src='/assets/images/work/nexion-final.png' size='massive' />
 
           </div>
         </Grid.Column>
