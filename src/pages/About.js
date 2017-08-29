@@ -8,7 +8,7 @@ const About = () => {
 
   const backgroundStyle = {
     backgroundImage: `url(${ imgUrl })`,
-    padding: '120px 0px 360px 0px',
+    padding: '120px 0px 600px 0px',
     height: '100%',
     marginTop: '-40px',
     textAlign: 'center',
@@ -23,14 +23,6 @@ const About = () => {
       <Grid.Row>
         <Header className='animated fadeIn' as='h2'> About </Header>
       </Grid.Row>
-      <Header as='h4' className='animated fadeIn'> Hello and Welcome! </Header>
-      <Grid.Row>
-        <Grid.Column>
-          <Image className='animated rollIn' centered shape='circular' src='/assets/images/profile.jpg' size='small' />
-          <Header className='animated fadeIn' as='h2'>Sylvee Lee</Header>
-          <SocialMedia/>
-        </Grid.Column>
-      </Grid.Row>
       <Grid.Row>
         <Grid.Column>
           <p>
@@ -42,6 +34,7 @@ const About = () => {
           </p>
         </Grid.Column>
       </Grid.Row>
+      <SocialMedia/>
       <Footer/>
     </Grid>
   );
